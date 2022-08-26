@@ -1,0 +1,17 @@
+{
+  "name": "lowcodeserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.4.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
